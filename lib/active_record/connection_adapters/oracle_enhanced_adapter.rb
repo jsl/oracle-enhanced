@@ -1161,9 +1161,6 @@ begin
 rescue LoadError
 end if defined?(Rails) || defined?(RAILS_ROOT)
 
-# Patches and enhancements for schema dumper
-require 'active_record/connection_adapters/oracle_enhanced_schema_dumper'
-
 # Implementation of structure dump
 require 'active_record/connection_adapters/oracle_enhanced_structure_dump'
 

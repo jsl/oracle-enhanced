@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{activerecord-oracle_enhanced-adapter}
+  s.name = %q{jsl-activerecord-oracle_enhanced-adapter}
   s.version = "1.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -42,7 +42,6 @@ This adapter is superset of original ActiveRecord Oracle adapter.
     "lib/active_record/connection_adapters/oracle_enhanced_oci_connection.rb",
     "lib/active_record/connection_adapters/oracle_enhanced_procedures.rb",
     "lib/active_record/connection_adapters/oracle_enhanced_schema_definitions.rb",
-    "lib/active_record/connection_adapters/oracle_enhanced_schema_dumper.rb",
     "lib/active_record/connection_adapters/oracle_enhanced_schema_statements.rb",
     "lib/active_record/connection_adapters/oracle_enhanced_schema_statements_ext.rb",
     "lib/active_record/connection_adapters/oracle_enhanced_structure_dump.rb",
@@ -59,7 +58,6 @@ This adapter is superset of original ActiveRecord Oracle adapter.
     "spec/active_record/connection_adapters/oracle_enhanced_dirty_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_emulate_oracle_adapter_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_procedures_spec.rb",
-    "spec/active_record/connection_adapters/oracle_enhanced_schema_dump_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_schema_statements_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_structure_dump_spec.rb",
     "spec/spec_helper.rb"
@@ -79,7 +77,6 @@ This adapter is superset of original ActiveRecord Oracle adapter.
     "spec/active_record/connection_adapters/oracle_enhanced_dirty_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_emulate_oracle_adapter_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_procedures_spec.rb",
-    "spec/active_record/connection_adapters/oracle_enhanced_schema_dump_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_schema_statements_spec.rb",
     "spec/active_record/connection_adapters/oracle_enhanced_structure_dump_spec.rb",
     "spec/spec_helper.rb"
